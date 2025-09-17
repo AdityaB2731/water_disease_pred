@@ -228,7 +228,8 @@ if st.button("Predict Disease"):
         st.error("Please enter some input text!")
     else:
         # Groq API setup
-
+        API_KEY = 'YOUR KEY'
+        API_URL = "YOUR URL"
 
         headers = {
             'Authorization': f'Bearer {API_KEY}',
