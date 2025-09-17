@@ -7,13 +7,6 @@
 # with open('dummy_input.txt', 'r') as file:
 #     document_text = file.read()
 
-# # -------------------- Groq API Setup --------------------
-# API_KEY = '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'  # Replace with your key
-# API_URL = 'https://api.groq.com/v1/chat/completions'
-# headers = {
-#     'Authorization': f'Bearer {API_KEY}',
-#     'Content-Type': 'application/json'
-# }
 
 # # Prompt to extract both water & patient info
 # payload = {
@@ -72,14 +65,6 @@
 # with open('dummy_input.txt', 'r') as file:
 #     document_text = file.read()
 
-# # -------------------- Groq API Setup --------------------
-# API_KEY = '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'  # Replace with your key
-# API_URL = "https://api.groq.com/openai/v1/chat/completions"
-
-# headers = {
-#     'Authorization': f'Bearer {API_KEY}',
-#     'Content-Type': 'application/json'
-# }
 
 # # -------------------- Prepare Groq Payload --------------------
 # payload = {
@@ -152,18 +137,7 @@
 # import json
 # import re
 
-# # -------------------- Load Text --------------------
-# with open('dummy_input.txt', 'r') as file:
-#     document_text = file.read()
 
-# # -------------------- Groq API Setup --------------------
-# API_KEY = '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'
-# API_URL = "https://api.groq.com/openai/v1/chat/completions"
-
-# headers = {
-#     'Authorization': f'Bearer {API_KEY}',
-#     'Content-Type': 'application/json'
-# }
 
 # # -------------------- Prepare Groq Payload --------------------
 # payload = {
@@ -254,8 +228,7 @@ if st.button("Predict Disease"):
         st.error("Please enter some input text!")
     else:
         # Groq API setup
-        API_KEY = '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'
-        API_URL = "https://api.groq.com/openai/v1/chat/completions"
+
 
         headers = {
             'Authorization': f'Bearer {API_KEY}',
