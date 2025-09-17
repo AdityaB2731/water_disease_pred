@@ -1,0 +1,10 @@
+Water turbidity measured: 8.5 NTU.
+pH level: 7.2
+Bacteria detected: Yes
+Rainfall this week: 150 mm
+Cases last week reported: 20
+Season: monsoon
+Patient symptoms:
+- Fever present
+- Diarrhea present
+- Abdominal pain present
